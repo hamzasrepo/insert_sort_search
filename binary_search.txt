@@ -1,0 +1,5 @@
+The best searching strategy in a guess game is to guess exactly
+the midpoint of the remaining possibilities. If you do that and
+then check whether your guess was too high or too low, you can
+always eliminate half of the remaining possibilities. If you
+eliminate half of the possibilities in each round of guessing.

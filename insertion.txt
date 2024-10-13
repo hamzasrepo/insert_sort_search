@@ -1,0 +1,24 @@
+# insertion.py - Inserts a file into a sorted filing cabinet
+
+Consider the task of insertion itself. Imagine that you
+have a filing cabinet whose files are already perfectly sorted. If
+someone hands you one new file and asks you to insert it into
+the right (sorted) position in the filing cabinet, how do you
+accomplish that?
+
+The following method describes a reasonable algorithm:
+
+1. Select the highest file in the filing cabinet. 
+
+2. Compare the file you have selected with the file to
+insert.
+
+3. If the file you have selected is lower than the file to
+insert, place the file to insert one position behind that
+file.
+
+4. If the file you have selected is higher than the file to
+insert, select the next highest file in the filing cabinet.
+
+5. Repeat steps 2 to 4 until you have inserted your file or
+compared it with every existing file.

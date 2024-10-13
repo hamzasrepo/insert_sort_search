@@ -1,0 +1,25 @@
+# insertion_sort.py - Sorts an unsorted list via insertion
+
+Imagine that you've been asked to sort all the files in a filing
+cabinet. Each file has a number assigned to it, and you need to
+rearrange the files so that the file with the lowest number is
+first in the cabinet, the file with the highest number is last, 
+and the files' numbers proceed in order in between.
+
+Insertion Sort relies on looking at each item in a list 
+one at a time and inserting it into a new list that 
+ends up being correctly sorted. 
+
+insertion_sort() takes an unsorted list one at a time and 
+uses our insertion algorithm to insert it correctly into 
+a new, sorted list. 
+
+In filing cabinet terms: 
+
+1. We start with an unsorted filing cabinet and an empty cabinet 
+2. We remove the first element of our old unsorted
+cabinet and add it to our new empty cabinet, using the
+insertion algorithm. 
+3. We do the same with the second element of the old cabinet, 
+then the third, and so on until we have inserted every element 
+of the old cabinet into the new cabinet.
